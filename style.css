@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    margin: 2em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+h2{
+    
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.red{
+    color: #ff0000;
+}
+
+.blue{
+    color: #1100ff;
+}
+
+.green{
+    color: #227700;
+}
+
+.container{
+    width:37.5rem;
+    height: 40rem;
+    margin: 3em auto;
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.color-menu{
+    margin:15px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;  
+}
+
+
+
+select,
+button{
+    font-family: 'Inter', sans-serif;
+    padding:10px;
+    border: .5px solid #b1b1b1;
+    border-radius: 5px;
+    color: gray/900;
+}
+
+button{
+    background: white;
+}
+
+select{
+    margin: 0 10px;
+    width:312px;
+}
+
+.seed-color{
+    height:40px;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+    background: white;
+
+}
+
+.colors, 
+.hexcode{
+    display: flex;
+}
+
+
+.color-column{
+    width: 120px;
+    height: 500px;
+    
+}
+
+.hex0, .hex1, .hex2, .hex3, .hex4{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.column-hex{
+    width: 120px;
+    
+}
+
+.small-text{
+    text-align: center;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}

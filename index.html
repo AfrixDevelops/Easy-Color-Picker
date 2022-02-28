@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
+    <title>Color Picker</title>
+</head>
+<body>
+    <header>
+        <h1> 
+            <span class="red">EASY</span>
+            <span class="green">COLOR</span> 
+            <span class="blue">PICKER</span>
+        </h1> 
+        <h2>FOR DESIGNERS</h2> 
+    </header>
+
+    <div class="container">
+
+        <div class="color-menu">
+             <input class="seed-color" type="color" value="#6C03A5"><!-- seed color -->
+             <select name="scheme" id="color-scheme"><!-- color scheme mode selection -->
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+             </select>
+             
+             <button id="btn">Get color scheme</button> <!-- click when done choosing mode -->
+        </div>
+
+
+        <div class="colors">
+            <div class="color-column color0"></div>
+            <div class="color-column color1"></div>
+            <div class="color-column color2"></div>
+            <div class="color-column color3"></div>
+            <div class="color-column color4"></div>
+        </div>
+
+
+        <div class="hexcode">
+            <div class="column-hex color0 hex0"><p>asd</p></div>
+            <div class="column-hex color1 hex1"><p>asd</p></div>
+            <div class="column-hex color2 hex2"><p>asd</p></div>
+            <div class="column-hex color3 hex3"><p>asd</p></div>
+            <div class="column-hex color4 hex4"><p>asd</p></div>
+        </div>
+        
+            
+    </div>
+
+    <p class="small-text">Click the colors to copy the hexcode*</p>
+
+    <script src="main.js"></script>
+</body>
+</html>
